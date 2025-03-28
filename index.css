@@ -1,0 +1,32 @@
+body {
+    font-family: 'Inter';
+    margin: 0;
+}
+
+button {
+    color: white;
+    background: black;
+    border-radius: 15px !important;
+    padding: 0 2rem;
+}
+
+section {
+    margin: 1rem 0;
+}
+
+.hero-tile {
+    height: 15rem;
+    overflow: hidden;
+}
+
+.hero-tile > video {
+    border-radius: 1rem;
+}
+
+.hero-tile > .body-text {
+    position: relative;
+    top: -6rem;
+    line-height: 0;
+    text-align: left;
+    color: white;
+}
